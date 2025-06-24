@@ -189,6 +189,13 @@ INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnMask`, 
 INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnMask`, `phaseMask`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`, `ScriptName`, `VerifiedBuild`, `Comment`) VALUES
 (5300530, 195603, 1, 876, 876, 1, 1, 16216.3, 16271, 13.0785, 5.68566, 0, 0, -0.294339, 0.955701, 300, 0, 1, '', NULL, NULL);
 
+-- mount trainer
+UPDATE `creature_template` SET `faction` = 35 WHERE (`entry` = 35133);
+INSERT INTO `creature` (`guid`, `id1`, `id2`, `id3`, `map`, `zoneId`, `areaId`, `spawnMask`, `phaseMask`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `wander_distance`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `ScriptName`, `VerifiedBuild`, `CreateObject`, `Comment`) VALUES
+(5300592, 35133, 0, 0, 1, 876, 876, 1, 1, 0, 16202, 16256.8, 21.1621, 0.32903, 300, 0, 0, 11677, 0, 0, 0, 0, 0, '', NULL, 0, NULL);
+
+
+
 
 
 
