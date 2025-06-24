@@ -195,9 +195,16 @@ INSERT INTO `creature` (`guid`, `id1`, `id2`, `id3`, `map`, `zoneId`, `areaId`, 
 (5300592, 35133, 0, 0, 1, 876, 876, 1, 1, 0, 16202, 16256.8, 21.1621, 0.32903, 300, 0, 0, 11677, 0, 0, 0, 0, 0, '', NULL, 0, NULL);
 
 
+-- forge
+
+INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnMask`, `phaseMask`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`, `ScriptName`, `VerifiedBuild`, `Comment`) VALUES
+(5300596, 23305, 1, 0, 0, 1, 1, 16228.2, 16283.8, 13.1742, 1.57938, 0, 0, -0.710136, -0.704064, 1, 0, 1, '', NULL, NULL);
 
 
 
+-- anvil 
+INSERT INTO `gameobject` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnMask`, `phaseMask`, `position_x`, `position_y`, `position_z`, `orientation`, `rotation0`, `rotation1`, `rotation2`, `rotation3`, `spawntimesecs`, `animprogress`, `state`, `ScriptName`, `VerifiedBuild`, `Comment`) VALUES
+(5300595, 192629, 1, 0, 0, 1, 1, 16218.8, 16284.3, 13.176, 3.02059, 0, 0, -0.99817, -0.0604644, 1, 0, 1, '', NULL, NULL);
 
 
 
